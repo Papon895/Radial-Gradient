@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #0b0d16;
+  color: #fff;
+  padding: 1rem 0;
+}
+.one {  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: radial-gradient(at top left, red 20%, transparent),
+   radial-gradient(at top right, orange 20%, transparent),
+   radial-gradient(at bottom right, pink 20%, transparent),
+  radial-gradient(at bottom left, blue 30%, transparent);
+}
